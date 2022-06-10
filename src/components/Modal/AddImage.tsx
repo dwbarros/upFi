@@ -9,10 +9,12 @@ import {
 
 import { FormAddImage } from '../Form/FormAddImage';
 
+
 interface ModalAddImageProps {
   isOpen: boolean;
   onClose: () => void;
 }
+
 
 export function ModalAddImage({
   isOpen,
